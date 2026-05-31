@@ -30,7 +30,7 @@ public class DepartmentServiceImpl implements DepartmentService{
 	@Override
 	public String saveDepartment(DepartmentDTO departmentDTO) {
 		try {
-			System.out.println('Test 1');
+			System.out.println('Test 14');
 			Department department = modelMapper.map(departmentDTO, Department.class);
 			departmentRepository.save(department);
 		}catch(Exception e) {
